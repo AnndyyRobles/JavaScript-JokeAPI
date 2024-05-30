@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bubblegum Sans', cursive;
+}
+body{
+    width: 100%;
+    height: 100vh;   
+    background: rgb(106,234,234);
+    background: radial-gradient(circle, rgba(106,234,234,1) 0%, rgba(64,234,222,1) 15%, rgba(40,225,222,1) 37%, rgba(53,216,228,1) 56%, rgba(34,208,211,1) 70%, rgba(9,164,169,1) 100%);
+    
+}
+.container{
+    width: 80vmin;
+    padding: 50px 40px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 20px 20px 1000px rgb(0, 0, 0);
+    box-shadow: inset 0 0 20px 5px rgb(89, 90, 91);
+    border: 7px solid rgb(58, 59, 59);
+}
+span{
+    display: block;
+    text-align: center;
+    font-size: 100px;
+}
+p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 35px;
+    margin: 30px 0;
+    opacity: 0;
+}
+.fade{
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+button{
+    display: block;
+    background-color: rgb(194, 204, 210);
+    box-shadow: inset 0 0 14px 3px rgb(146, 147, 152);
+    border: none;
+    padding: 5px;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 12px 25px;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
